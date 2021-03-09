@@ -1,0 +1,174 @@
+*{
+    font-family: sans-serif;
+}
+
+.head{
+background-color: #777;
+}
+
+.post{
+    background-color: #eee;
+}
+
+.close{    
+color: whitesmoke;
+cursor: pointer;
+}
+
+.close :hover{
+    color: #fff;
+}
+.opinion{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.opt {
+    outline: 0;
+    border-width: 0 0; 
+}
+
+.foot{
+    margin-top: 100px;
+}
+
+.labels{  
+    display: flex;
+    color: grey;
+    margin-bottom: 2px;
+}
+select{
+    color: #999;
+}
+
+.font i{
+    color: #999;
+    background-color: #fff;
+    font-size: 25px;
+}
+.font :hover{
+ color: #dc3545;
+}
+p{
+    color: gray;
+    font-size: 15px;
+  }
+   .list{
+
+    border-right: grey 1px solid;
+    padding-right: 7px;
+   }
+
+   li > a{
+     color: gray;
+     font-size: 14px;
+   }
+
+   .foot{
+     margin-top: 80px;
+   }
+
+   #logo{
+    font-weight: 800;
+    font-size: 32px;
+    color: #dc3545;
+}
+
+a {
+    color: #777;
+}
+.bton{
+    font-size: 10px;
+    line-height: initial;    
+}
+
+i
+{
+    background-color: #eee;
+    color: #dc3545;  
+}
+.vote{
+    color: #dc3545;
+}
+.comment{
+    padding: 5px;
+    background: #eee;
+    font-size: 17px;
+}
+
+p{
+color: #777; 
+font-size: 13px;   
+}
+.fonts{
+    background-color: #dc3545;
+    color: #eee;
+    font-size: 10px;
+}
+
+.fonts .icons{
+    background-color: #dc3545;
+    color: #eee;
+}
+.icons:hover{
+    background-color: rgb(144, 9, 15);
+    transform: scale(2.1);
+}
+.fonts :hover{
+    background-color: rgb(144, 9, 15);
+}
+.pin{
+    cursor: pointer;
+}
+.commentOne{
+    background-color: #dc3545;
+    color: #eee;
+}
+.commentOne p{
+font-size: 16px;
+color: #ddd;
+}
+
+.get a{
+    color: rgb(28, 78, 241);
+    font-weight: 800;
+}
+.give a{
+    color: lime;
+    font-weight: 700;  
+}
+
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(65, 57, 57, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: grey;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown:hover .dropdown-content {display: block;}

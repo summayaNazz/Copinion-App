@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+}
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #dc3545;
+    transition: transform .2s;
+  }
+  #name:hover{
+    transform: scale(0.9);
+  }
+  input:focus {
+    border-color: #dc3545
+  }
+  label{
+      display: flex;
+      /* align-content: flex-start; */
+      color: #dc3545
+  }
+  .verify{
+    margin-bottom: 40px;
+  }
+
+.mobile-text {
+    color: #777;
+    font-size: 15px
+}
+.cursor{
+  cursor: pointer;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 10vh;
+    color: #dc3545;
+}
+h6{
+  color: #dc3545;
+  font-weight: 500;
+}
+.btn{
+    font-size: 15px;
+    font-weight: bold;
+       
+   }

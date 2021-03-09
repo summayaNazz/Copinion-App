@@ -1,0 +1,69 @@
+*{
+  font-family: sans-serif;
+}
+.field {
+    border-bottom: #dc3545 2px solid;
+  }
+  /* .dropdown {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #dc3545
+  } */
+#phone{
+  outline: 0;
+  border-width: 0 0;
+}
+#email{
+  outline: 0;
+  border-width: 0 0;
+}
+#password{
+  outline: 0;
+  border-width: 0 0;
+}
+#name{
+  outline: 0;
+  border-width: 0 0;
+}
+option{
+  outline: 0;
+  border-width: 0 0;
+}
+
+  select {
+    outline: 0;
+    border-width: 0 0;
+    border-color:#dc3545;
+    color: #666;
+
+  }
+  input:focus {
+    border-color: #dc3545
+  }
+  label{
+      display: flex;
+      /* align-content: flex-start; */
+      color: #dc3545
+  }
+h1{
+  font-weight: bolder;
+  font-size: 10vh;
+  color: #dc3545;
+}
+h2{
+  color: #dc3545;
+}
+h5{
+    color: #dc3545;
+    font-weight: 600;
+}
+h6{
+    color: grey;
+}
+span{
+  color: #dc3545;
+}
+.btn{
+ font-weight: bold;
+}
+

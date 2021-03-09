@@ -1,0 +1,57 @@
+*{
+    font-family: sans-serif;
+}
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey;
+  }
+  input:focus {
+    border-color: grey;
+  }
+  .labels{
+      display: flex;
+      /* align-content: flex-start; */
+    
+  }
+  select {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey
+  }
+  select:focus {
+    border-color: grey
+  }
+label{
+    color: grey;
+}
+.terms{
+    
+    font-size: 2.5vh;
+    font-weight: bolder;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 10vh;
+    color: #dc3545;
+}
+h5{
+    color: #dc3545;  
+    font-weight: 600;
+}
+.btn{
+    font-weight: bold;
+   }
+   .list{
+
+    border-right: grey 1px solid;
+    padding-right: 7px;
+   }
+   li > a{
+     color: gray;
+     font-size: 14px;
+   }
+   .foot{
+     margin-top: 80px;
+   }
